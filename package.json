@@ -11,6 +11,15 @@
     "Productivity"
   ],
   "license": "MIT",
+  "preferences": [
+    {
+      "name": "apiKey",
+      "title": "Deepnote API Key",
+      "description": "Your Deepnote API key",
+      "type": "password",
+      "required": true
+    }
+  ],
   "commands": [
     {
       "name": "search-projects",
