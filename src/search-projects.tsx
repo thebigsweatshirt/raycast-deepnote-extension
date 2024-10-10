@@ -130,7 +130,7 @@ function ProjectListItem({ project }: { project: Project }) {
   if (project.isFavorite) {
     accessories.push({ 
       icon: { source: Icon.Star, tintColor: Color.Yellow },
-      tooltip: "Project is favorited" 
+      tooltip: "Project is a favorite" 
     });
   }
   if (project.hasDataApp) {
