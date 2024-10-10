@@ -24,19 +24,14 @@
     {
       "name": "search-projects",
       "title": "Search Projects",
-      "description": "",
-      "mode": "no-view"
-    },
-    {
-      "name": "create-projects",
-      "title": "Create Projects",
-      "description": "",
-      "mode": "no-view"
+      "description": "Search and view your Deepnote projects",
+      "mode": "view"
     }
   ],
   "dependencies": {
     "@raycast/api": "^1.83.2",
-    "@raycast/utils": "^1.17.0"
+    "@raycast/utils": "^1.17.0",
+    "node-fetch": "^3.2.0"
   },
   "devDependencies": {
     "@raycast/eslint-config": "^1.0.11",
