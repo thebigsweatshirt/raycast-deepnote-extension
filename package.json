@@ -22,6 +22,19 @@
   ],
   "commands": [
     {
+      "name": "deepnote-ai",
+      "title": "Deepnote AI",
+      "description": "Ask questions about your data.",
+      "mode": "no-view",
+      "arguments": [
+        {
+          "name": "prompt",
+          "type": "text",
+          "placeholder": "Enter your prompt"
+        }
+      ]
+    },
+    {
       "name": "search-projects",
       "title": "Search Projects",
       "description": "Search and view your Deepnote projects",
